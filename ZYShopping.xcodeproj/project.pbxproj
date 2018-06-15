@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3361FBF20D362D7008F7ABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3361FBE20D362D7008F7ABA /* AppDelegate.m */; };
+		D3361FC220D362D7008F7ABA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3361FC120D362D7008F7ABA /* ViewController.m */; };
+		D3361FC520D362D7008F7ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3361FC320D362D7008F7ABA /* Main.storyboard */; };
+		D3361FC720D362D7008F7ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3361FC620D362D7008F7ABA /* Assets.xcassets */; };
+		D3361FCA20D362D7008F7ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3361FC820D362D7008F7ABA /* LaunchScreen.storyboard */; };
+		D3361FCD20D362D7008F7ABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3361FCC20D362D7008F7ABA /* main.m */; };
+		D3361FD720D362D7008F7ABA /* ZYShoppingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3361FD620D362D7008F7ABA /* ZYShoppingTests.m */; };
+		D3361FE220D362D7008F7ABA /* ZYShoppingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3361FE120D362D7008F7ABA /* ZYShoppingUITests.m */; };
+		D3361FF920D362EF008F7ABA /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3361FF020D362EE008F7ABA /* ProductCell.xib */; };
+		D3361FFA20D362EF008F7ABA /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3361FF120D362EE008F7ABA /* BottomView.m */; };
+		D3361FFB20D362EF008F7ABA /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D3361FF320D362EE008F7ABA /* CustomButton.m */; };
+		D3361FFC20D362EF008F7ABA /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3361FF520D362EF008F7ABA /* BottomView.xib */; };
+		D3361FFD20D362EF008F7ABA /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3361FF620D362EF008F7ABA /* ProductCell.m */; };
+		D3361FFE20D362EF008F7ABA /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3361FF820D362EF008F7ABA /* ProductModel.m */; };
+		D336200020D363C0008F7ABA /* wine.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3361FFF20D363C0008F7ABA /* wine.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3361FD320D362D7008F7ABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3361FB220D362D7008F7ABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3361FB920D362D7008F7ABA;
+			remoteInfo = ZYShopping;
+		};
+		D3361FDE20D362D7008F7ABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3361FB220D362D7008F7ABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3361FB920D362D7008F7ABA;
+			remoteInfo = ZYShopping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3361FBA20D362D7008F7ABA /* ZYShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3361FBD20D362D7008F7ABA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3361FBE20D362D7008F7ABA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3361FC020D362D7008F7ABA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3361FC120D362D7008F7ABA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3361FC420D362D7008F7ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3361FC620D362D7008F7ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3361FC920D362D7008F7ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3361FCB20D362D7008F7ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3361FCC20D362D7008F7ABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3361FD220D362D7008F7ABA /* ZYShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3361FD620D362D7008F7ABA /* ZYShoppingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYShoppingTests.m; sourceTree = "<group>"; };
+		D3361FD820D362D7008F7ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3361FDD20D362D7008F7ABA /* ZYShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3361FE120D362D7008F7ABA /* ZYShoppingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYShoppingUITests.m; sourceTree = "<group>"; };
+		D3361FE320D362D7008F7ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3361FEF20D362EE008F7ABA /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		D3361FF020D362EE008F7ABA /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		D3361FF120D362EE008F7ABA /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		D3361FF220D362EE008F7ABA /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		D3361FF320D362EE008F7ABA /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		D3361FF420D362EF008F7ABA /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		D3361FF520D362EF008F7ABA /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
+		D3361FF620D362EF008F7ABA /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		D3361FF720D362EF008F7ABA /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
+		D3361FF820D362EF008F7ABA /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
+		D3361FFF20D363C0008F7ABA /* wine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wine.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3361FB720D362D7008F7ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3361FCF20D362D7008F7ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3361FDA20D362D7008F7ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3361FB120D362D7008F7ABA = {
+			isa = PBXGroup;
+			children = (
+				D3361FBC20D362D7008F7ABA /* ZYShopping */,
+				D3361FD520D362D7008F7ABA /* ZYShoppingTests */,
+				D3361FE020D362D7008F7ABA /* ZYShoppingUITests */,
+				D3361FBB20D362D7008F7ABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3361FBB20D362D7008F7ABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3361FBA20D362D7008F7ABA /* ZYShopping.app */,
+				D3361FD220D362D7008F7ABA /* ZYShoppingTests.xctest */,
+				D3361FDD20D362D7008F7ABA /* ZYShoppingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3361FBC20D362D7008F7ABA /* ZYShopping */ = {
+			isa = PBXGroup;
+			children = (
+				D3361FFF20D363C0008F7ABA /* wine.plist */,
+				D3361FBD20D362D7008F7ABA /* AppDelegate.h */,
+				D3361FBE20D362D7008F7ABA /* AppDelegate.m */,
+				D3361FC020D362D7008F7ABA /* ViewController.h */,
+				D3361FC120D362D7008F7ABA /* ViewController.m */,
+				D3361FEF20D362EE008F7ABA /* BottomView.h */,
+				D3361FF120D362EE008F7ABA /* BottomView.m */,
+				D3361FF520D362EF008F7ABA /* BottomView.xib */,
+				D3361FF420D362EF008F7ABA /* CustomButton.h */,
+				D3361FF320D362EE008F7ABA /* CustomButton.m */,
+				D3361FF220D362EE008F7ABA /* ProductCell.h */,
+				D3361FF620D362EF008F7ABA /* ProductCell.m */,
+				D3361FF020D362EE008F7ABA /* ProductCell.xib */,
+				D3361FF720D362EF008F7ABA /* ProductModel.h */,
+				D3361FF820D362EF008F7ABA /* ProductModel.m */,
+				D3361FC320D362D7008F7ABA /* Main.storyboard */,
+				D3361FC620D362D7008F7ABA /* Assets.xcassets */,
+				D3361FC820D362D7008F7ABA /* LaunchScreen.storyboard */,
+				D3361FCB20D362D7008F7ABA /* Info.plist */,
+				D3361FCC20D362D7008F7ABA /* main.m */,
+			);
+			path = ZYShopping;
+			sourceTree = "<group>";
+		};
+		D3361FD520D362D7008F7ABA /* ZYShoppingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3361FD620D362D7008F7ABA /* ZYShoppingTests.m */,
+				D3361FD820D362D7008F7ABA /* Info.plist */,
+			);
+			path = ZYShoppingTests;
+			sourceTree = "<group>";
+		};
+		D3361FE020D362D7008F7ABA /* ZYShoppingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3361FE120D362D7008F7ABA /* ZYShoppingUITests.m */,
+				D3361FE320D362D7008F7ABA /* Info.plist */,
+			);
+			path = ZYShoppingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3361FB920D362D7008F7ABA /* ZYShopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3361FE620D362D7008F7ABA /* Build configuration list for PBXNativeTarget "ZYShopping" */;
+			buildPhases = (
+				D3361FB620D362D7008F7ABA /* Sources */,
+				D3361FB720D362D7008F7ABA /* Frameworks */,
+				D3361FB820D362D7008F7ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYShopping;
+			productName = ZYShopping;
+			productReference = D3361FBA20D362D7008F7ABA /* ZYShopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3361FD120D362D7008F7ABA /* ZYShoppingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3361FE920D362D7008F7ABA /* Build configuration list for PBXNativeTarget "ZYShoppingTests" */;
+			buildPhases = (
+				D3361FCE20D362D7008F7ABA /* Sources */,
+				D3361FCF20D362D7008F7ABA /* Frameworks */,
+				D3361FD020D362D7008F7ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3361FD420D362D7008F7ABA /* PBXTargetDependency */,
+			);
+			name = ZYShoppingTests;
+			productName = ZYShoppingTests;
+			productReference = D3361FD220D362D7008F7ABA /* ZYShoppingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3361FDC20D362D7008F7ABA /* ZYShoppingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3361FEC20D362D7008F7ABA /* Build configuration list for PBXNativeTarget "ZYShoppingUITests" */;
+			buildPhases = (
+				D3361FD920D362D7008F7ABA /* Sources */,
+				D3361FDA20D362D7008F7ABA /* Frameworks */,
+				D3361FDB20D362D7008F7ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3361FDF20D362D7008F7ABA /* PBXTargetDependency */,
+			);
+			name = ZYShoppingUITests;
+			productName = ZYShoppingUITests;
+			productReference = D3361FDD20D362D7008F7ABA /* ZYShoppingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3361FB220D362D7008F7ABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = palm;
+				TargetAttributes = {
+					D3361FB920D362D7008F7ABA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D3361FD120D362D7008F7ABA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3361FB920D362D7008F7ABA;
+					};
+					D3361FDC20D362D7008F7ABA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3361FB920D362D7008F7ABA;
+					};
+				};
+			};
+			buildConfigurationList = D3361FB520D362D7008F7ABA /* Build configuration list for PBXProject "ZYShopping" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3361FB120D362D7008F7ABA;
+			productRefGroup = D3361FBB20D362D7008F7ABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3361FB920D362D7008F7ABA /* ZYShopping */,
+				D3361FD120D362D7008F7ABA /* ZYShoppingTests */,
+				D3361FDC20D362D7008F7ABA /* ZYShoppingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3361FB820D362D7008F7ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3361FCA20D362D7008F7ABA /* LaunchScreen.storyboard in Resources */,
+				D3361FF920D362EF008F7ABA /* ProductCell.xib in Resources */,
+				D3361FFC20D362EF008F7ABA /* BottomView.xib in Resources */,
+				D336200020D363C0008F7ABA /* wine.plist in Resources */,
+				D3361FC720D362D7008F7ABA /* Assets.xcassets in Resources */,
+				D3361FC520D362D7008F7ABA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3361FD020D362D7008F7ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3361FDB20D362D7008F7ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3361FB620D362D7008F7ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3361FC220D362D7008F7ABA /* ViewController.m in Sources */,
+				D3361FFB20D362EF008F7ABA /* CustomButton.m in Sources */,
+				D3361FCD20D362D7008F7ABA /* main.m in Sources */,
+				D3361FBF20D362D7008F7ABA /* AppDelegate.m in Sources */,
+				D3361FFA20D362EF008F7ABA /* BottomView.m in Sources */,
+				D3361FFD20D362EF008F7ABA /* ProductCell.m in Sources */,
+				D3361FFE20D362EF008F7ABA /* ProductModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3361FCE20D362D7008F7ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3361FD720D362D7008F7ABA /* ZYShoppingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3361FD920D362D7008F7ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3361FE220D362D7008F7ABA /* ZYShoppingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3361FD420D362D7008F7ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3361FB920D362D7008F7ABA /* ZYShopping */;
+			targetProxy = D3361FD320D362D7008F7ABA /* PBXContainerItemProxy */;
+		};
+		D3361FDF20D362D7008F7ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3361FB920D362D7008F7ABA /* ZYShopping */;
+			targetProxy = D3361FDE20D362D7008F7ABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3361FC320D362D7008F7ABA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3361FC420D362D7008F7ABA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3361FC820D362D7008F7ABA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3361FC920D362D7008F7ABA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3361FE420D362D7008F7ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3361FE520D362D7008F7ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3361FE720D362D7008F7ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.epay.ZYShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3361FE820D362D7008F7ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.epay.ZYShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3361FEA20D362D7008F7ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.epay.ZYShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYShopping.app/ZYShopping";
+			};
+			name = Debug;
+		};
+		D3361FEB20D362D7008F7ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.epay.ZYShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYShopping.app/ZYShopping";
+			};
+			name = Release;
+		};
+		D3361FED20D362D7008F7ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYShoppingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.epay.ZYShoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYShopping;
+			};
+			name = Debug;
+		};
+		D3361FEE20D362D7008F7ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYShoppingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.epay.ZYShoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYShopping;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3361FB520D362D7008F7ABA /* Build configuration list for PBXProject "ZYShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3361FE420D362D7008F7ABA /* Debug */,
+				D3361FE520D362D7008F7ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3361FE620D362D7008F7ABA /* Build configuration list for PBXNativeTarget "ZYShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3361FE720D362D7008F7ABA /* Debug */,
+				D3361FE820D362D7008F7ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3361FE920D362D7008F7ABA /* Build configuration list for PBXNativeTarget "ZYShoppingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3361FEA20D362D7008F7ABA /* Debug */,
+				D3361FEB20D362D7008F7ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3361FEC20D362D7008F7ABA /* Build configuration list for PBXNativeTarget "ZYShoppingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3361FED20D362D7008F7ABA /* Debug */,
+				D3361FEE20D362D7008F7ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3361FB220D362D7008F7ABA /* Project object */;
+}
